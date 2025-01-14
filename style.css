@@ -13,6 +13,19 @@ html{
     align-items: center;
 }
 
+.round-logo{
+    display: block;
+}
+
+.logo{
+    width: 236px;
+    height: 29.17px;
+}
+
+.test{
+    border: 1px solid red;
+}
+
 .title-login{
     text-decoration: none;
     color: #0e122a;
@@ -140,7 +153,50 @@ footer a:hover{
     margin: 0px 13px;
 }
 
+.view-title-web{
+    display: block;
+}
+
+.view-title-mobile{
+    display: block;
+}
+
 @media (max-width: 768px){
+    .title-box{
+        display: block;
+    }
+
+    .round-logo{
+        display: none;
+    }
+
+    .logo{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .login{
+        max-width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    .title-login{
+        font-size: 12px;
+    }
+    
+    .title-icon{
+        font-size: 12px;
+    }
+
+    .product-title{
+        font-size: 25px;
+    }
+
+    .product-sub{
+        font-size: 14px;
+    }
+
     .sale-img{
         max-width: 100%;
         height: auto;
@@ -148,5 +204,23 @@ footer a:hover{
 
     .mb-none-card{
         display: none;
+    }
+
+    .view-title-web{
+        display: none;
+    }
+
+    .view-title-mobile{
+        display: block;
+    }
+
+    .footer-first-box {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-menu-box{
+        display: block;
+        text-align: center;
     }
 }
